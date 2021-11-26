@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pfnncharacter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\glm\;CMake Files\glm\glm\;CMake Files\pybind11\;CMake Files\pybind11\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pfnncharacter">
+				<Option output="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/pfnncharacter.cpython-38-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="anaconda3/include/python3.7m"/>
+					<Add directory="Work/RLAgent/commonUtils/PFNNBaseCode/pybind11/include"/>
+					<Add directory="Work/RLAgent/commonUtils/PFNNBaseCode/glm"/>
+					<Add directory="Work/RLAgent/commonUtils/PFNNBaseCode/eigen-3.3.7"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 pfnncharacter"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pfnncharacter/fast">
+				<Option output="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/pfnncharacter.cpython-38-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="anaconda3/include/python3.7m"/>
+					<Add directory="Work/RLAgent/commonUtils/PFNNBaseCode/pybind11/include"/>
+					<Add directory="Work/RLAgent/commonUtils/PFNNBaseCode/glm"/>
+					<Add directory="Work/RLAgent/commonUtils/PFNNBaseCode/eigen-3.3.7"/>
+					<Add directory="/usr/include/python3.8"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 pfnncharacter/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;Work/RLAgent/commonUtils/PFNNBaseCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/PFNNBaseCode.cpp">
+			<Option target="pfnncharacter"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/PFNNBaseCode.h">
+			<Option target="pfnncharacter"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/main.cpp">
+			<Option target="pfnncharacter"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glm\"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glm\glm\"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pybind11\"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="Work/RLAgent/commonUtils/PFNNBaseCode/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
