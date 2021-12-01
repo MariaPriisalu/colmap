@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -std=c++17 -g  -shared  -o pfnncharacter.cpython-38-x86_64-linux-gnu.so CMakeFiles/pfnncharacter.dir/main.cpp.o CMakeFiles/pfnncharacter.dir/PFNNBaseCode.cpp.o 

@@ -1,3 +1,8 @@
+COLMAP adapted from COLMAP 3.4 (see original read me below). Have added semantic segmentations to 3D reconstructions as an additional color channel.
+
+Below starts original README.
+---------
+
 COLMAP
 ======
 
